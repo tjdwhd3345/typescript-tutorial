@@ -56,8 +56,9 @@ const p2: Player2 = {
   name: 'mocci'
 }
 
-/** interface 합치기 (property 쌓기)
- * 아래코드는 타입스크립트가 name, age, height 속성을 갖는 Person 인터페이스 하나로 합쳐서 인식한다
+/** interface 합치기 (property 쌓기)  
+ * 아래코드는 타입스크립트가 name, age, height 속성을 갖는 Person 인터페이스 하나로 합쳐서 인식한다.  
+ * type으로 사용하면 이런 코드는 안된다
  * */
 interface Person {
   name: string
